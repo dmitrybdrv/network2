@@ -1,0 +1,33 @@
+.MyPostsArea {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.MyPostsArea textArea {
+    border-radius: 25px;
+    width: 750px;
+    padding: 10px;
+    resize: none;
+    border-color: #ffffff;
+    background-color: #efedf5;
+}
+
+.MyPostsArea textArea:focus {
+    outline: none !important;
+}
+
+.addPostButton {
+    margin-top: 10px;
+    background-color: #3d195b;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    padding: 7px 15px;
+    float: right;
+    margin-right: 30px;
+}
+
+.addPostButton:hover {
+    background-color: #b385d9;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.post {
+
+}
+
+.guestAva img {
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 60px;
+}

@@ -1,0 +1,38 @@
+.dialogPage {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 4fr 8fr;
+    grid-template-areas:
+    'textArea messagesItem'
+    'buttonAddMessage messagesItem'
+    'userItems messagesItem';
+}
+
+.buttonAddMessage {
+    margin: 0 auto;
+    background-color: #3d195b;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    max-width: 100px;
+    padding: 7px 15px;
+}
+
+.buttonAddMessage:hover {
+    background-color: #b385d9;
+    cursor: pointer;
+}
+
+
+.textArea {
+    border-radius: 25px;
+    padding: 10px;
+    resize: none;
+    border-color: #ffffff;
+    background-color: #efedf5;
+    margin: 10px;
+}
+
+.textArea:focus {
+    outline: none !important;
+}

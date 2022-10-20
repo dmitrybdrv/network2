@@ -1,0 +1,9 @@
+.messageItems {
+    grid-area: messagesItem;
+}
+
+.messageItems li {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 25px;
+}

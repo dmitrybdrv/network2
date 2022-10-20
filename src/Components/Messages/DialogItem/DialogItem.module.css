@@ -1,0 +1,23 @@
+.userItems {
+    grid-area: userItems;
+    padding: 10px;
+}
+
+
+.userItems li {
+    list-style-type: none;
+}
+
+.userItems a {
+    text-decoration: none;
+    color: #3d195b;
+}
+
+.items a:hover {
+    text-decoration: underline;
+}
+
+.items {
+    padding: 5px;
+    font-weight: bold;
+}

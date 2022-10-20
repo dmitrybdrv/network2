@@ -1,0 +1,10 @@
+.head {
+    grid-area: head;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.head img {
+    max-width: 100px;
+    max-height: 55px;
+}

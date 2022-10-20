@@ -1,0 +1,26 @@
+.profileInfo {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-areas: 'mainAvatar description';
+    margin-left: 15px;
+    width: 950px;
+}
+
+.profileInfo img {
+    grid-area: mainAvatar;
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.description {
+    border-radius: 25px;
+    width: 750px;
+    padding: 10px;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color: #e8dcf3;
+    border-style: solid;
+}
+
