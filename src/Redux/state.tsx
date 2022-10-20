@@ -35,17 +35,17 @@ export let state: RootStateType = {
         posts: [
             {
                 id: v1(),
-                avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+                avatar: 'https://www.researchgate.net/profile/Niels-Henze/publication/327193972/figure/fig3/AS:669335882309643@1536593518908/The-avatar-generator-faceMaker_Q320.jpg',
                 message: '..Hi, iam using this network',
                 likesCount: 12
             },
             {
                 id: v1(),
-                avatar: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+                avatar: 'https://i.pinimg.com/474x/82/2f/c8/822fc8818395286c2cbf8dfabfc706c3.jpg',
                 message: 'Its like a paranoia, looking over my back',
                 likesCount: 2
             },
-            {id: v1(), avatar: 'https://rubenmontes.com/wp-content/uploads/2020/04/Chris-user-profile.jpg', message: 'Go to listing some trash', likesCount: 4},
+            {id: v1(), avatar: 'https://cdn-alpha.settr.com/instagram/avatar/jetamoure/avatar-62aa954d59073.jpg', message: 'Go to listing some trash', likesCount: 4},
         ]
     },
     dialogsPage: {
