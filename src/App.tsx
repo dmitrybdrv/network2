@@ -16,8 +16,7 @@ export type AppPropsType = {
 }
 
 
-const App: React.FC<AppPropsType> = ({state,addPost}) => {
-
+const App: React.FC<AppPropsType> = ({state, addPost}) => {
 
 
     return (
